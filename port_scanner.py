@@ -57,15 +57,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-# ip = input("Enter IP Address: ")
-# startPort = int(input("Enter your start port: "))
-# endPort = int(input("Enter your end port: "))
-#
-# for port in range(startPort, endPort + 1):
-#     s = socket(AF_INET, SOCK_STREAM)
-#     result = s.connect_ex((ip, port))
-#     if result == 0:
-#         print("port " + str(port) + " is open")
-#     else:
-#         print("port " + str(port) + " is closed")
-#     s.close()
